@@ -1,11 +1,13 @@
 # CodeAssignment
 Test:
+
 Compile all the file and run the main function.
 (javac *.java
 java Main    )
 I have written a few test cases in the main function. You can directly compile all the class and run the main function to see it.
 
 Design:
+
 Rule class: store ip and port range.
 
 Firewall class: Use packet direction and protocol as keys to store rules sets.
