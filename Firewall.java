@@ -28,7 +28,6 @@ public class Firewall {
     public void MergeRules() {
         for (Map.Entry<String, Set<Rule>> entry: map.entrySet()) {
             Set<Rule> rules = entry.getValue();
-            //List<Rule> addressList = new ArrayList<>(set);
             for(Rule a : rules){
                 for(Rule b : rules){
                     if(a.equals(b))
